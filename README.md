@@ -16,7 +16,7 @@ plus fréquemment possible et en mettent en application les bonnes pratiques ét
 
 Afin de pouvoir se connecter via SSH au serveur Nextcloud à partir du serveur Backup, il est nécessaire de modifier
 le fichier : sshd_config.
-Pour ce faire, dans /etc/ssh/sshd_config décommenter la ligne PermitRootLogin et remplacer `prohibit-password` par `yes`
+Pour ce faire, dans /etc/ssh/sshd_config décommenter la ligne `PermitRootLogin` et remplacer `prohibit-password` par `yes`
 
 
 ### Installation des scripts - Serveur Backup
